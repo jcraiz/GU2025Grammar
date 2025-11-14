@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Underway - Level 1 Grammar - Unit 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Enlace a nuestro archivo CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-anchor"></i> Get Underway</h1>
+        <p class="subtitle">Level 1 Grammar - Unit 1: Pronouns & "To Be"</p>
+        
+        <div class="buttons">
+            <button onclick="toggleFullScreen()">
+                <i class="fas fa-expand"></i> Full Screen
+            </button>
+            <button onclick="expandAll()">
+                <i class="fas fa-expand-arrows-alt"></i> Expand All
+            </button>
+            <button id="practiceModeBtn" onclick="togglePracticeStudyMode()">
+                <i class="fas fa-ship"></i> Practice Mode
+            </button>
+        </div>
+
+        <div id="grammarContent">
+            <details>
+                <summary>
+                    <i class="fas fa-user icon"></i>
+                    What are Pronouns?
+                </summary>
+                <div class="content">
+                    <p>Pronouns are short words for people or things. In Spanish, like "yo" or "tú". In English, we use them with the verb "to be".</p>
+                    <p>They help us not repeat names. Example: Instead of "The captain is tall. The captain is strong.", say "He is tall. He is strong."</p>
+                    
+                    <table class="pronoun-table">
+                        <thead>
+                            <tr>
+                                <th>Pronoun</th>
+                                <th>Who?</th>
+                                <th>Example (Navy)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>I</td><td>Me (yo)</td><td>I am a sailor.</td></tr>
+                            <tr><td>You</td><td>You (tú or usted)</td><td>You are on the ship.</td></tr>
+                            <tr><td>He</td><td>He (male, él)</td><td>He is the captain.</td></tr>
+                            <tr><td>She</td><td>She (female, ella)</td><td>She is a doctor on base.</td></tr>
+                            <tr><td>It</td><td>Thing (eso)</td><td>It is a big boat.</td></tr>
+                            <tr><td>We</td><td>We (nosotros)</td><td>We are in the Navy.</td></tr>
+                            <tr><td>They</td><td>They (ellos or ellas)</td><td>They are my team.</td></tr>
+                        </tbody>
+                    </table>
+                    
+                    <p><i class="fas fa-pencil-alt"></i> <strong>Practice:</strong> Say "I am..." about your job.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>
+                    <i class="fas fa-comment-dots icon"></i>
+                    The Verb "To Be" in Present Simple
+                </summary>
+                <div class="content">
+                    <p>The verb "to be" means "ser" or "estar" in Spanish. It describes who you are or where you are now.</p>
+                    <p><strong>Present Simple</strong> = now, every day. Forms: <em>am, is, are</em>.</p>
+                    <p><strong>Rule:</strong> Use with pronouns. I + am. You/We/They + are. He/She/It + is.</p>
+                    
+                    <div class="example">
+                        <p><strong><i class="fas fa-lightbulb"></i> Base sentence:</strong> Subject + verb to be + description.</p>
+                        <p><strong>Example:</strong> I am ready for duty.</p>
+                    </div>
+                    
+                    <p><strong>Why learn this?</strong> In the Navy, you say: "I am on watch." or "The ship is safe."</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>
+                    <i class="fas fa-check-circle icon"></i>
+                    Affirmative Sentences (Positive)
+                </summary>
+                <div class="content">
+                    <p>Affirmative = yes, true. Use "am/is/are" + description.</p>
+                    
+                    <table class="verb-table">
+                        <thead>
+                            <tr>
+                                <th>Pronoun</th>
+                                <th>Form</th>
+                                <th>Navy Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>I</td><td>am</td><td>I am a lieutenant.</td></tr>
+                            <tr><td>You</td><td>are</td><td>You are brave.</td></tr>
+                            <tr><td>He</td><td>is</td><td>He is on patrol.</td></tr>
+                            <tr><td>She</td><td>is</td><td>She is the chef.</td></tr>
+                            <tr><td>It</td><td>is</td><td>It is my uniform.</td></tr>
+                            <tr><td>We</td><td>are</td><td>We are a team.</td></tr>
+                            <tr><td>They</td><td>are</td><td>They are officers.</td></tr>
+                        </tbody>
+                    </table>
+                    
+                    <p><i class="fas fa-pencil-alt"></i> <strong>Practice:</strong> Make a sentence: "We are... " about your unit.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>
+                    <i class="fas fa-times-circle icon"></i>
+                    Negative Sentences
+                </summary>
+                <div class="content">
+                    <p>Negative = no, not true. Add "not" after am/is/are.</p>
+                    <p><strong>Short forms:</strong> am not / isn't / aren't.</p>
+                    
+                    <table class="verb-table">
+                        <thead>
+                            <tr>
+                                <th>Pronoun</th>
+                                <th>Form</th>
+                                <th>Navy Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>I</td><td>am not</td><td>I am not late for duty.</td></tr>
+                            <tr><td>You</td><td>are not</td><td>You are not afraid.</td></tr>
+                            <tr><td>He</td><td>is not</td><td>He is not the pilot.</td></tr>
+                            <tr><td>She</td><td>is not</td><td>She is not on vacation.</td></tr>
+                            <tr><td>It</td><td>is not</td><td>It is not broken.</td></tr>
+                            <tr><td>We</td><td>are not</td><td>We are not lost at sea.</td></tr>
+                            <tr><td>They</td><td>are not</td><td>They are not new sailors.</td></tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="example">
+                        <p><i class="fas fa-bolt"></i> <strong>Say it fast:</strong> I'm not... You're not... He's not... etc.</p>
+                    </div>
+                    
+                    <p><i class="fas fa-pencil-alt"></i> <strong>Practice:</strong> "The radio is not..." (think of a problem on ship).</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>
+                    <i class="fas fa-question-circle icon"></i>
+                    Yes/No Questions
+                </summary>
+                <div class="content">
+                    <p>Questions = ask for yes or no. Put am/is/are before the pronoun.</p>
+                    <p><strong>Answer:</strong> Yes, I am. / No, I'm not.</p>
+                    
+                    <table class="verb-table">
+                        <thead>
+                            <tr>
+                                <th>Pronoun</th>
+                                <th>Question Form</th>
+                                <th>Navy Example</th>
+                                <th>Answer Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>I</td><td>Am I...?</td><td>Am I on watch tonight?</td><td>Yes, you are.</td></tr>
+                            <tr><td>You</td><td>Are you...?</td><td>Are you ready, sailor?</td><td>Yes, I am.</td></tr>
+                            <tr><td>He</td><td>Is he...?</td><td>Is he the commander?</td><td>No, he isn't.</td></tr>
+                            <tr><td>She</td><td>Is she...?</td><td>Is she in the engine room?</td><td>Yes, she is.</td></tr>
+                            <tr><td>It</td><td>Is it...?</td><td>Is it a submarine?</td><td>No, it isn't.</td></tr>
+                            <tr><td>We</td><td>Are we...?</td><td>Are we safe now?</td><td>Yes, we are.</td></tr>
+                            <tr><td>They</td><td>Are they...?</td><td>Are they on training?</td><td>No, they aren't.</td></tr>
+                        </tbody>
+                    </table>
+                    
+                    <p><i class="fas fa-pencil-alt"></i> <strong>Practice:</strong> Ask a friend: "Are you in the Navy?"</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>
+                    <i class="fas fa-lightbulb icon"></i>
+                    Practice with Navy Examples
+                </summary>
+                <div class="content">
+                    <p>Now, mix pronouns and "to be". Talk about your day!</p>
+                    <ul>
+                        <li><i class="fas fa-ship"></i> I am a sailor in the Colombian Navy. I am strong.</li>
+                        <li><i class="fas fa-user-friends"></i> You are my friend. You are not tired.</li>
+                        <li><i class="fas fa-user-tie"></i> He is the captain. Is he happy?</li>
+                        <li><i class="fas fa-female"></i> She is on the bridge. She is not afraid of the sea.</li>
+                        <li><i class="fas fa-anchor"></i> It is our ship. It is big and fast.</li>
+                        <li><i class="fas fa-users"></i> We are a crew. We are ready for mission.</li>
+                        <li><i class="fas fa-medal"></i> They are officers. Are they from Cartagena?</li>
+                    </ul>
+                    
+                    <div class="example">
+                        <p><strong><i class="fas fa-star"></i> Your turn:</strong> Write 3 sentences about your team. Say one positive, one negative, one question.</p>
+                    </div>
+                    
+                    <p><i class="fas fa-trophy"></i> <strong>Good job!</strong> Practice with a partner on base. Next lesson: more verbs.</p>
+                </div>
+            </details>
+        </div>
+
+        <!-- Practice Mode Section -->
+        <div id="practiceMode" class="practice-mode-hidden">
+            <h2><i class="fas fa-ship"></i> Practice Mode: Pronouns & "To Be"</h2>
+            <div id="quizContainer">
+                <p id="questionText"></p>
+                <div id="optionsContainer" class="options-container"></div>
+                <div id="feedback" class="feedback"></div>
+                <button id="nextQuestionBtn" class="next-question-btn">Next Question</button>
+            </div>
+            <div id="quizResults" class="quiz-results">
+                <h3>Quiz Complete!</h3>
+                <p>You scored <span id="scoreDisplay"></span> out of <span id="totalQuestionsDisplay"></span>.</p>
+                <button onclick="restartQuiz()">Restart Practice</button>
+                <button onclick="hidePracticeMode()">Back to Grammar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="floating-progress">
+        <!-- Desktop Circle -->
+        <div class="progress-circle-desktop">
+            <svg>
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <circle class="bg-circle" cx="60" cy="60" r="54"></circle>
+                <circle class="progress-ring" cx="60" cy="60" r="54" 
+                        stroke-dasharray="339.292" stroke-dashoffset="339.292" id="progressRing"></circle>
+            </svg>
+            <div class="progress-text-desktop" id="desktopProgressText">0%</div>
+        </div>
+        <div class="progress-label-desktop"><i class="fas fa-graduation-cap"></i> Progress</div>
+        
+        <!-- Mobile Bar -->
+        <div class="progress-bar-mobile">
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progressBarFill"></div>
+            </div>
+            <span class="progress-text-mobile" id="mobileProgressText">0%</span>
+        </div>
+    </div>
+
+    <button class="floating-button" onclick="collapseAll()">
+        <i class="fas fa-compress-arrows-alt"></i> Collapse All
+    </button>
+
+    <script src="script.js"></script> <!-- Enlace a nuestro archivo JS -->
+</body>
+</html>
